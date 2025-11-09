@@ -1,0 +1,103 @@
+
+
+public class Main {
+// Tudo que estiver dentro do puclib static.... é oque vai ser primeiro executado
+	public static void main(String[] args) { // Esse é o entre point da nossa aplicação
+		// This is a comment :D
+		System.out.println("Hellos everbody! ksks No, no.... This is fucked, HELLO WORLD!");
+		//System.out.println = This is a fucking a "printf" Im screwed :P
+		
+		//break line 
+		System.out.println("Quebra de linha");
+		
+        // Without break line
+		System.out.print("Quebra de linha");
+		System.out.println("%n"); // Break line
+		
+		//Example data out
+		int var_int = 32;
+		System.out.println(var_int);
+		
+		// Example float/double data out
+		double x = 10.35784;
+		System.out.println(x); // No formated
+		System.out.printf("%.2f%n", x); // Formated %.2f = 10.36
+		
+		// My computer's language is English, so my comma is a ".", but if my computer's language is Portuguese, I need to have = Locale.setDefault(Locale.US);
+		// To use the locale, I need to import = import java.util.Locale; in my initial program
+		
+		// Concatenando = Juntar 
+		System.out.println("RESUTADO = " + x + " Metros");
+		
+		// Concatenando Varios elementos
+		System.out.printf("RESULTADO: %.2f mentros%n", x); // Formated
+		
+		// Example:
+		String nome = "Maria";
+		int idade = 31;
+		double renda = 4000.0;
+		System.out.printf("%s, tem uma renda de R$ %.2f, com %d anos%n", nome, renda, idade);
+		// %d - int
+		// %f - double or float
+		// %s - String
+		// %n - break line
+		
+		System.out.printf("%n-=== Exercise ===-%n");
+		// Exercise
+		String product1 = "Computer";
+		String product2 = "Office desk";
+		
+		int age = 30;
+		int code = 5290;
+		char gender = 'F';
+		
+		double price1 = 2100.0;
+		double price2 = 650.50;
+		double measure = 53.234567;
+		
+		System.out.printf("Products:%n%s, which price is R$ %.2f%n%s, which price is R$ %.2f%n", product1, price1, product2, price2);
+		System.out.printf("Record: %d years old, code %d ande gender: %c%n", age, code, gender);
+		System.out.printf("Measue with eight decimal place: %.2f%nRouded (threee decimal places): %.3f%nUS decimal point: %.3f", measure, measure, measure);
+		System.out.printf("%n-===============-%n");
+		
+
+	}
+
+}
+
+// I saw arithmetic operations:
+// Mult = 2 * 2
+// Add and Sub = 1 + 1 | 2 - 1
+// Div = 4 / 2
+// Mod = 4 % 2
+
+// I saw variables:
+// Variable = data stored in memory, in C, this is logical.
+// <tipo> <name> = <data / value> (Optional)
+// int idade = 25;
+// double altura = 1.68;
+// char sexo = 'F';
+// Posso receber endereço
+
+// Tipos - 
+// Int = 32 bits
+// long = 64 bits 
+// float = 32 bits
+// double = 64 bits
+// char = 16 bits
+// boolean = 1 bit
+// char = 16 bits "Recebem unicode"
+
+// Define name variable (camelCase)
+//int _5minutes;
+// int salario;
+// int salarioDoFuncionario;
+
+// I saw basic operation in java
+// Atribuição - Entrada
+// Processamento de dados
+// Saida de dados
+
+// I sar data out
+// Escrita = System.out.print("Opa") - sem a quebra de linha
+// Escrita = System.out.println("Opa") - Com quebra de linha
